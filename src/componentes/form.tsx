@@ -16,7 +16,6 @@ export function Form({ onSuccess }: { onSuccess: () => void }) {
     "Indiquei e não recebi meu bônus": [],
     "Não consigo concluir meu cadastro": [],
     "O valor do meu prêmio veio errado": [],
-    "O aplicativo está com erro/travando": [],
   };
 
   return (
