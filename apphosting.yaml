@@ -1,0 +1,48 @@
+env:
+  - variable: NEXT_PUBLIC_BASE_URL
+    secret: next_public_base_url
+    availability:
+      - BUILD
+      - RUNTIME
+
+  - variable: MAIL_TRANSPORT_HOST
+    secret: mail_transport_host
+    availability:
+      - BUILD
+      - RUNTIME
+
+  - variable: MAIL_TRANSPORT_PORT
+    secret: mail_transport_port
+    availability:
+      - BUILD
+      - RUNTIME
+
+  - variable: MAIL_SENDER
+    secret: mail_sender
+    availability:
+      - BUILD
+      - RUNTIME
+
+  - variable: MAIL_SENDER_CLIENT_ID
+    secret: mail_sender_client_id
+    availability:
+      - BUILD
+      - RUNTIME
+
+  - variable: MAIL_SENDER_CLIENT_SECRET
+    secret: mail_sender_client_secret
+    availability:
+      - BUILD
+      - RUNTIME
+      -
+  - variable: MAIL_SENDER_REFRESH_TOKEN
+    secret: mail_sender_refresh_token
+    availability:
+      - BUILD
+      - RUNTIME
+
+  - variable: MAIL_RECEIVER
+    secret: mail_receiver
+    availability:
+      - BUILD
+      - RUNTIME
