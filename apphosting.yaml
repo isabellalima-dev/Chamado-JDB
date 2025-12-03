@@ -34,7 +34,7 @@ env:
     availability:
       - BUILD
       - RUNTIME
-      -
+
   - variable: MAIL_SENDER_REFRESH_TOKEN
     secret: mail_sender_refresh_token
     availability:
